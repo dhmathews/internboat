@@ -1,5 +1,6 @@
- <style>
-    body {background-color:powderblue;"}
+    body {
+	    background-color:powderblue;
+}
     h1 {
 	    font-family:sans-serif;
 	    font-size:300%;
@@ -8,4 +9,4 @@
 	    font-family:sans-serif;
 	    font-size:150%;
 	    }
-		</style>
+		
