@@ -29,34 +29,42 @@ h1,h2,h3,h4,h5,h6 {
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
   <img class="w3-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Clouds_over_the_Atlantic_Ocean.jpg/1200px-Clouds_over_the_Atlantic_Ocean.jpg" width="1600" height="800">
+  <div class="w3-display-top w3-padding-large opaque">
+    <h4 class="w3-large"><font color="white">"Welcome to Intern Boat! Our goal here is to connect high schoolers in the D.C.-Maryland-Virginia area to local startups and tech companies through internships."
+      </font>
+    </h4>
+  </div>
   <div class="w3-display-left w3-padding-large opaque">
       <h6 class="w3-medium"><font color = "white"><form>
 Grade: <input type="text" name="GradeLevel" value=" "><br>
           <br/></font>
 </form>
       </h6>
-    </div>
+  </div>
   <div class="w3-display-middle w3-padding-large opaque">
-      <h6 class="w3-medium"><font color="white"><form>
+      <h6 class="w3-medium"><font color="darkblue"><form>
           State: <select name="State">
             <option value="dc">District of Columbia</option>
             <option value="maryland">Maryland</option>
             <option value="virginia">Virginia</option>
             <option value="nopref" selected>No Preference</option>
-        </select>
+                </select>
           <br><br></font>
-</form>
+          </form>
           </h6>
-          </div>
-    <div class="w3-display-position w3-padding-large opaque" style="top:200px;left:10px">
-        <form action="/action_page.php">
-            <input type="submit" value="Submit">
-        </form>
+  </div>
+  <div class="w3-display-right w3-padding-large opaque">
+      <pre><h6 class="w3-medium"><font color="white"><form>
+        Choose which fields most interest you:
+        <input type="checkbox" name="1" value="Science">Science
+        <input type="checkbox" name="2" value="Technology">Technology
+        <input type="checkbox" name="3" value="Engineering">Engineering
+        <input type="checkbox" name="4" value="Mathematics">Mathematics
+        </font>
+      </form></pre>
+      </h6>
     </div>
-    <div class="w3-display-bottomleft w3-padding-large opaque">
-        <h1 class="w3-xxlarge"><font color = "white">Find High School Internships</font></h1>
-    </div>
-</header>
+  </header>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
@@ -109,16 +117,21 @@ Grade: <input type="text" name="GradeLevel" value=" "><br>
   <hr>
 
   <!-- Contact Section -->
-    <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1>
-    <p class="w3-text-blue-grey w3-large">
-    <b>You can contact us by email with any inquiry</b>
-    <br>
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>Reach out to these people they may help you with your internship.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by email
     Syerra Ryan: syerra.ryan@gmail.com
-    <br>
-    Teresa Reyes: teresa.coreas-reyes@students.dbcr.org
-    <br>
+    Teresa Reyes: teresa.coreas-	rayes@students.dbcr.org
     Divya Mathews: dhmathews00@gmail.com</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
   </div>
   
 <!-- End page content -->
