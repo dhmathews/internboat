@@ -10,6 +10,24 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display";
     letter-spacing: 5px;
 }
+.button {
+    background-color: #FF1493;
+    border: 2px solid #FF1493;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+	background-color:white;
+    color:black;
+}
 </style>
 <body>
 
@@ -36,7 +54,7 @@ h1,h2,h3,h4,h5,h6 {
     </h4>
   </div>
   <div class="w3-display-middle w3-padding-large opaque>
-    <p>Click on a button below to see internships for different STEM fields.</p>
+    <p class="w3-large">Click on a button below to see internships for different STEM fields.</p>
     <a href="#" class="button">Science</a>
     <a href="#" class="button">Technology</a>
     <a href="#" class="button">Engineering</a>
