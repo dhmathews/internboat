@@ -10,28 +10,26 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display";
     letter-spacing: 5px;
 }
-button.accordion {
+.button {
     background-color: #FF1493;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
     border: 2px solid #FF1493;
+    color: white;
+    padding: 15px 20px;
     text-align: center;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
-
-button.accordion.active, button.accordion:hover {
-    background-color: white;
+.button:hover {
+	background-color:white;
     color:black;
 }
-
-div.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
+div.buttons {
+	max-width:5000px;
 }
 </style>
 <body>
@@ -58,94 +56,11 @@ div.panel {
     </h4>
   </div>
   <div class="w3-display-middle w3-padding-large opaque" "buttons">
-    <p>Click on the accordion below to find internships that pertain to STEM</p>
-
-<button class="accordion">Science</button>
-<div class="panel">
-<a href
-"http://www.twc.edu/science-1?gclid=Cj0KCQjwtpDMBRC4ARIsADhz5O4n5FLb-8305gnNtBVkbAoRElcgcIryYpcByvkEEMNFjj5h-byTVYAaAsrEEALw_wcB">The Washington Center</a>
-<br/>
-
-<a href "http://obtjobs.org/programs/young-adult-internship-program/?gclid=Cj0KCQjwtpDMBRC4ARIsADhz5O6OhgFzhCagPy1QKIZJx9BRRbRLUL-n78RkfCxu--yZadLetWPxdT4aAg2KEALw_wcB">Opportunities for a Better Tomorrow</a>
-<br/>
-
-<a href "http://obtjobs.org/programs/young-adult-internship-program/?gclid=Cj0KCQjwtpDMBRC4ARIsADhz5O6OhgFzhCagPy1QKIZJx9BRRbRLUL-n78RkfCxu--yZadLetWPxdT4aAg2KEALw_wcB">Department of Defense STEM</a>
-<br/>
-
-<a href "http://www.internships.com/science/maryland">Find 2017 Science Internships in Maryland</a>
-<br/>&nbsp;
-
-</div>
-
-<button class="accordion">Technology</button>
-<div class="panel">
-<a href "http://americasfutureworkforce.org/?gclid=Cj0KCQjwtpDMBRC4ARIsADhz5O6O-XMuu76jJYGc_LHvCrkbnggqqOCU3S45JE1_E9hDZ8DE0EynqzkaAt_8EALw_wcB">America's Future Workforce</a>
-<br/>
-
-
-<a href "https://www.linkedin.com/jobs/view/395759260?trkInfo=searchKeywordString%3AInformation%2BTechnology%2BInternship%2CsearchLocationString%3AWashington%252C%2BDC%2Cvertical%3Ajobs%2CpageNum%3A1%2Cposition%3A1%2CMSRPsearchId%3A3a7fa133-8216-4868-b31b-ccf8a7f36ea4&refId=3a7fa133-8216-4868-b31b-ccf8a7f36ea4&trk=jobs_jserp_job_listing_text">LinkedIn</a>
-<br/>
-
-<a href "https://www.wayup.com/s/internships/it/washington-dc/">Way Up</a>
-<br/>
-
-<a href "http://www.icfj.org/about/whayne-dillehay-internship-program">International Center for Journalists</a>
-<br/>&nbsp;
-
-</div>
-
-<button class="accordion">Engineering</button>
-<div class="panel">
-  <a href "https://www.linkedin.com/jobs/view/413316689">Engineering internships</a>
-  <br/>
-
-<a href "https://www.predictivetechnologies.com/en/jobs/intern-software-engineer">Software Engineering</a>
-<br/>
-
- <a href "https://www.glassdoor.com/job-listing/drone-engineering-intern-measure-uas-JV_IC1138213_KO0,24_KE25,36.htm?jl=2497651780">Drone Engineering Intern</a> 
- <br/>
-
-<a href "https://www.glassdoor.com/job-listing/architectural-engineering-intern-mgt-federal-reserve-board-of-governors-JV_IC1138213_KO0,36_KE37,71.htm?jl=2500380093">Architectural/Engineering Intern (MGT)</a>
-<br/>
-
-<a href "http://www.internships.com/engineering/systems-engineer-i2361829">Systems Engineer</a>
-<br/>&nbsp;
-
-</div>
-
-<button class="accordion">Mathematics</button>
-<div class="panel">
-<a href "https://www.indeed.com/viewjob?jk=9914fc4a087226e1&q=Mathematics+Intern&l=Washington%2C+DC&tk=1bmn575mma3st93h&from=web">Financial Empowerment Internship</a>
-<br/>
-
-<a href "https://www.indeed.com/cmp/DoGood-Media/jobs/Marketing-Intern-6e469cf85ed96760?sjdu=QwrRXKrqZ3CNX5W-O9jEvWEuKRfJsQCJGKhFvHSNSCAYfRpCCJue5ULhsm0ZmLGQAb0QrfySPUPuQDMjn9ei5w">Marketing Intern</a>
-<br/>
-
-<a href "https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&jobId=115348&PartnerId=26059&SiteId=5034&JobReqLang=141&recordstart=1&JobSiteId=5034&JobSiteInfo=115348_5034&gqid=221&codes=1-INDEED#jobDetails=undefined">Research Summer Intern</a>
-<br/>
-
-
-<a href "https://chk.tbe.taleo.net/chk06/ats/careers/requisition.jsp?org=GOVCOLUCENT&cws=1&rid=3207&source=indeed.com">Summer Intern - Axios</a>
-<br/>&nbsp;
-
-</div>
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    }
-}
-</script>
-
+    <p class="w3-large"><font color="#FF1493">Click on a button below to see internships for different STEM fields.</p></font>
+    <a href="#" class="button">Science</a>
+    <a href="#" class="button">Technology</a>
+    <a href="#" class="button">Engineering</a>
+    <a href="#" class="button">Mathematics</a>
   </div>  
   </header>
 
@@ -257,6 +172,10 @@ for (i = 0; i < acc.length; i++) {
     Divya Mathews: dhmathews00@gmail.com
     <br>
     Natalie Paragas: icedragonnatalie@aol.com
+    <br>
+    <br>
+    <br>
+    For advice from women in STEM please contact these people
     <br>
     Kate Robinowitz: cathryn.rabinowitz@gmail.com</p> 
   </div>
